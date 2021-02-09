@@ -1,4 +1,4 @@
-# Flash-Loan-Leverage-Swaps
+### Flash-Loan-Leverage-Swaps
 Long and Shorts using aave flash loans and any third party AMMs like 1Inch or Uniswap
 
 # What is it doing ?
@@ -15,12 +15,12 @@ I am saving the positions on chain, can be moved to subgraph to improve on the g
 1. Choose a collateral.
 2. Choose a leverage.
 3. Choose long or short.
-4. Now the contract takes a flash loan of the required amount and alos takes the approval to use the users collateral.
+4. Now the contract takes a flash loan of the required amount and also takes the approval to use the users collateral.
 5. Then, Credit delegation on behalf of the user.
 6. Now we swap for the required tokens on any AMM. 
 7. Borrow on Aave.(Loan plus premium).
 8. Repay the loan.
-9. In the end your wallet will have aLink tokens and you will have some debt based on your leverage. 
+9. In the end your wallet will have  Atokens and you will have some debt based on your leverage on AAVE. (The first flashloan swap transaction might take a little time. *SEE NOTE*)
 
 You can also close your positions accordingly. 
 
@@ -41,6 +41,9 @@ So you have to do three things -
 5. On metamask, choose localhost:8545. 
 
 This will start your project and you can check it out. 
+
+## NOTE
+**The first flashloan swap transaction might take a little time due to being on the forked net. Give it about a 30-45 secs and m sure the metamask will popup for the main flash loan transaction. The consequent transactions will popup quite fast after that.**
 
 # TODO
 1. Add Stop loss.
