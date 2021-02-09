@@ -41,3 +41,12 @@ So you have to do three things -
 5. On metamask, choose localhost:8545. 
 
 This will start your project and you can check it out. 
+
+# TODO
+1. Add Stop loss.
+2. Take profit.
+3. The positions themselves can be tokenized. Havent yet worked out on the process for this. This
+4. 1 inch has an interesting chi token use, can decrease swap gas price by 40 percent. This
+5. Add Uniswap support.
+6. Slippage configuration for the user.
+7. Liquidation notification. 
