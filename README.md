@@ -8,7 +8,7 @@ In the App you will get 10 addresses that have **10000 WETH, 10000 DAI and USDC*
 **--You can copy the first address from the console when you do a yarn fork.--**
 I have also added closing the positions which is a little tricky, still not sure how to ensure that thers no dust remaining.
 
-I am saving the positions on chain, can be moved to subgraph to improve on the gas cost. This
+I am saving the positions on chain, can be moved to subgraph to improve on the gas cost.
 
 **So what exactly is the LevAave contract doing -** 
 
@@ -48,8 +48,9 @@ This will start your project and you can check it out.
 # TODO
 1. Add Stop loss.
 2. Take profit.
-3. The positions themselves can be tokenized. Havent yet worked out on the process for this. This
-4. 1 inch has an interesting chi token use, can decrease swap gas price by 40 percent. This
+3. The positions themselves can be tokenized. Havent yet worked out on the process for this.
+4. 1 inch has an interesting chi token use, can decrease swap gas price by 40 percent.
 5. Add Uniswap support.
 6. Slippage configuration for the user.
-7. Liquidation notification. 
+7. Liquidation notification.
+8. Emit events and catch them on subgraph. 

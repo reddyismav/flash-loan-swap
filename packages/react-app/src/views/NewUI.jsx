@@ -579,8 +579,8 @@ function NewUI(props) {
               </g>
             </svg>
           </div>
-          <div className="header-main-text-lev">Lev</div>
-          <div className="header-main-text-aave">Aave</div>
+          <div className="header-main-text-lev">Flash</div>
+          <div className="header-main-text-aave">Leverage</div>
         </div>
 
         <div style={{ display: "flex" }}>
