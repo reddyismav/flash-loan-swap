@@ -1,6 +1,6 @@
 ### Flash-Loan-Leverage-Swaps
 Long and Shorts using aave flash loans and any third party AMMs like 1Inch or Uniswap
-This is a copy of the project that Bhanu, Marco worked on in the Marketmake Hackathon. 
+This is a copy of the project that Bhanu, Marco and I worked on in the Marketmake Hackathon. 
 
 https://github.com/levaave/levaave
 
