@@ -1,5 +1,8 @@
 ### Flash-Loan-Leverage-Swaps
 Long and Shorts using aave flash loans and any third party AMMs like 1Inch or Uniswap
+This is a copy of the project that Bhanu, Marco worked on in the Marketmake Hackathon. 
+
+https://github.com/levaave/levaave
 
 # What is it doing ?
 We are trying to take a leveraged long and short position using the aave flashloans. We can use any sort of AMM's to swap for a selected token you want to leverage. 
